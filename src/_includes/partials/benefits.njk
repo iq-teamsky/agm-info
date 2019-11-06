@@ -1,0 +1,26 @@
+<div class="service-area bg3 sp">
+    <div class="container">
+        {% if benefitsTitle %}
+        <div class="section-title">
+            <h2>{{ benefitsTitle }}</h2>
+        </div>
+        {% endif %}
+        <div class="row">
+            {%- for benefit in collections.benefits -%}
+            <div class="col-lg-6 col-md-6 single-service-3">
+                <div class="inner">
+                    <div class="title">
+                        <div class="icon">
+                            <i class="fa fa-{{ benefit.data.icon }}"></i>
+                        </div>
+                        <h3 class="h4">{{ benefit.data.title }}</h3>
+                    </div>
+                    <div class="content">
+                        <p>{{ benefit.data.description }}</p>
+                    </div>
+                </div>
+            </div>
+            {%- endfor -%}
+        </div>
+    </div>
+</div>

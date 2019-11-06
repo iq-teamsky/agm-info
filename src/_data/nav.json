@@ -1,0 +1,41 @@
+{
+    "items": [
+        {
+            "text": "Home",
+            "url": "/",
+            "external": false
+          },
+          {
+            "text": "About us",
+            "url": "/about-us",
+            "external": false,
+            "submenu": [
+              {
+                "text": "Our proposition",
+                "url": "/our-proposition",
+                "external": false
+              },
+              {
+                "text": "Our history",
+                "url": "/our-history",
+                "external": false
+              },
+              {
+                "text": "Our people",
+                "url": "/people",
+                "external": false
+              }
+            ]
+          },
+          {
+            "text": "Services",
+            "url": "/services",
+            "external": false
+          },
+          {
+            "text": "Contact",
+            "url": "/contact",
+            "external": false
+          }
+    ]
+}

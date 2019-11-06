@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {%- if noindex -%}
+    <meta name="robots" content="noindex">
+    {%- endif -%}
+
+    <!-- Favicon -->
+    <link href="{{ site.faviconPath }}" rel="shortcut icon"/>
+
+    {% include "partials/global/meta-info.njk" %}
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700,900&display=swap" rel="stylesheet">
+
+    <!-- Required CSS files -->
+    <link rel="stylesheet" href="/assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="/assets/css/barfiller.css">
+    <link rel="stylesheet" href="/assets/css/animate.css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/slicknav.css">
+    <link rel="stylesheet" href="/assets/css/screen.min.css">
+
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89356652-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-89356652-1', {'anonymize_ip': true});
+    </script>
+</head>
+
+<body>
+    <div class="preloader">
+        <span class="preloader-spin"></span>
+    </div>
+    <div class="site">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-sm-2 logo-column">
+                        {%- if page.url == '/' -%}
+                        <div class="logo">
+                            <img src="/assets/img/logo.png" alt="logo AGMinfo">
+                        </div>
+                        {%- else -%}
+                        <a href="/" class="logo">
+                            <img src="/assets/img/logo.png" alt="logo AGMinfo">
+                        </a>
+                        {%- endif -%}
+                    </div>
+                    <div class="col-6 col-sm-10 nav-column clearfix">
+                        {% include 'partials/nav.njk' %}
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+        {% block content %}
+        {{ content | safe }}
+        {% endblock content %}
+        </main>
+
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                <h2 class="sr-only">Contact info</h2>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3 footer_widget">
+                            <div class="inner">
+                                <h3 class="h5 footer-title">Visit</h3>
+                                <dl>
+                                    <dt class="sr-only">Company</dt>
+                                    <dd>{{ settings.companyName }}</dd>
+                                    <dt class="sr-only">Address</dt>
+                                    <dd>{{ settings.address }}</dd>
+                                    <dt class="sr-only">Postal code</dt>
+                                    <dd>{{ settings.postalCode }}</dd>
+                                    <dt class="sr-only">Country</dt>
+                                    <dd>{{ settings.country }}</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 footer_widget">
+                            <div class="inner">
+                                <h3 class="h5 footer-title">Email</h3>
+                                <p>{{ settings.email }}</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 footer_widget">
+                            <div class="inner">
+                                <h3 class="h5 footer-title">Telephone</h3>
+                                <p>{{ settings.phoneNumber }}</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 footer_widget">
+                            <div class="inner">
+                                <h3 class="h5 footer-title">Follow us</h3>
+                                {%- if settings.social -%}
+                                <ul class="nav footer_widget__social">
+                                    {%- for link in settings.social -%}
+                                    <li class="nav-item">
+                                        <a href="{{ link.url }}" target="_blank" class="nav-link">
+                                            <span class="sr-only">{{ link.text }}</span>
+                                            <i class="fa fa-{{ link.icon }}"></i>
+                                        </a>
+                                    </li>
+                                    {%- endfor -%}
+                                </ul>
+                                {%- endif -%}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="copyright-txt">
+                                © 2019 AGMinfo.eu. All Rights Reserved.
+                            </div>
+                        </div>
+                        <div class="col-lg-6 text-right">
+                            <div class="footer-nav">
+                                <a href="/terms-and-conditions">Terms &amp; conditions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!--Required JS files-->
+    <script src="/assets/js/jquery-2.2.4.min.js"></script>
+    <script src="/assets/js/vendor/popper.min.js"></script>
+    <script src="/assets/js/vendor/bootstrap.min.js"></script>
+    <script src="/assets/js/vendor/owl.carousel.min.js"></script>
+    <script src="/assets/js/vendor/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/vendor/jquery.barfiller.js"></script>
+    <script src="/assets/js/vendor/loopcounter.js"></script>
+    <script src="/assets/js/vendor/slicknav.min.js"></script>
+    <script src="/assets/js/active.js"></script>
+
+</body>
+</html>

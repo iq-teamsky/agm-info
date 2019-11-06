@@ -1,0 +1,14 @@
+<div class="page-title sp-m{% if not backgroundImage %} c1-bg{% endif %}"{% if backgroundImage %} style="background-image: url(/assets/img/hero/{{ backgroundImage }})"{% endif %}>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <div class="page-content border-brand-bottom">
+                    <h1>{{ title }}</h1>
+                    {%- if description -%}
+                    <p>{{ description }}</p>
+                    {%- endif -%}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

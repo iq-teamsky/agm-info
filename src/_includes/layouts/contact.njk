@@ -1,0 +1,29 @@
+{% extends "base.njk" %}
+
+{% block content %}
+    {% include "partials/page-title.njk" %}
+
+    <div class="contact-area sp">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <h2>Contact info</h2>
+                    <dl>
+                        <dt class="sr-only">Company</dt>
+                        <dd>{{ settings.companyName }}</dd>
+                        <dt class="sr-only">Address</dt>
+                        <dd>{{ settings.address }}</dd>
+                        <dt class="sr-only">Postal code</dt>
+                        <dd>{{ settings.postalCode }}</dd>
+                        <dt class="sr-only">Country</dt>
+                        <dd>{{ settings.country }}</dd>
+                        <dt>Email</dt>
+                        <dd>{{ settings.email }}</dd>
+                        <dt>Phone</dt>
+                        <dd>{{ settings.phoneNumber }}</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

@@ -1,0 +1,20 @@
+{
+    "companyName": "AGMinfo.eu",
+    "address": "Barbara Strozzilaan 201",
+    "postalCode": "1083 HN Amsterdam",
+    "country": "Netherlands",
+    "email": "contact@agminfo.eu",
+    "phoneNumber": "+ 31 (0) 20 788 3313",
+    "social": [
+        {
+            "text": "linkedin",
+            "url": "https://www.linkedin.com/company/agminfo.eu/",
+            "icon": "linkedin"
+        },
+        {
+            "text": "twitter",
+            "url": "https://twitter.com/AGMinfoeu",
+            "icon": "twitter"
+        }
+    ]
+}

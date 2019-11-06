@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+Sitemap: https://agminfodemo.netlify.com/sitemap.xml

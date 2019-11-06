@@ -1,0 +1,29 @@
+{% extends "base.njk" %}
+
+{% block content %}
+
+    {% include "partials/page-title.njk" %}
+
+    <div class="team-area sp">
+        <div class="container">
+            <div class="team-section">
+                <h2>Our People</h2>
+                <div class="row">
+                {%- for member in collections.people | reverse -%}
+                    {% include "partials/single-team.njk" %}
+                {%- endfor -%}
+                </div>
+            </div>
+            {%- if collections.board -%}
+            <div class="team-section">
+                <h2>Our advisory board</h2>
+                <div class="row">
+                {%- for member in collections.board | reverse -%}
+                    {% include "partials/single-team.njk" %}
+                {%- endfor -%}
+                </div>
+            </div>
+            {%- endif -%}
+        </div>
+    </div>
+{% endblock content %}

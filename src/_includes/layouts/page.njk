@@ -1,0 +1,15 @@
+{% extends "base.njk" %}
+
+{% block content %}
+    {% include "partials/page-title.njk" %}  
+    <!-- about -->    
+    <div class="about-area sp">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-8">
+                    {{ content | safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

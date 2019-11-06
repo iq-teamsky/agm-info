@@ -1,0 +1,25 @@
+{%- if nav.items -%}
+<nav id="menu" class="d-none d-lg-block">
+    <ul>
+        {%- for item in nav.items -%}
+
+        {%- set currentAttribute = '' -%}
+
+        {%- if page.url == item.url -%}
+        {%- set currentAttribute = 'current-menu-item' -%}
+        {%- endif -%}
+
+        <li class="{{ currentAttribute | safe }}{% if item.submenu %} has-child{% endif %}">
+            <a href="{{ item.url }}">{{ item.text }}</a>
+            {%- if item.submenu -%}
+            <ul class="sub-menu">
+                {%- for subitem in item.submenu -%}
+                <li><a href="{{subitem.url}}">{{ subitem.text }}</a></li>
+                {%- endfor -%}
+            </ul>
+            {%- endif -%}
+        </li>
+        {%- endfor -%}
+    </ul>
+</nav>
+{%- endif -%}
