@@ -10,6 +10,7 @@ module.exports = function(eleventyConfig) {
     // Cop sitemap.xml and robots.txt files
     eleventyConfig.addPassthroughCopy("src/robots.txt");
     eleventyConfig.addPassthroughCopy("src/sitemap.xml");
+    eleventyConfig.addPassthroughCopy({ 'src/assets/img/favicons': '/' });
 
     return {
         dir: {
