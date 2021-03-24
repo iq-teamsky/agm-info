@@ -1,11 +1,10 @@
 ---
 name: Robbert Veltman
 function: Analyst
-location: 
+location:
 image: robert-veltman.jpg
-url: 
+url:
 tags:
     - people
     - our people
-permalink: false
 ---

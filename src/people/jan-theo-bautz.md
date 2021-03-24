@@ -1,10 +1,9 @@
 ---
 name: Jan Theo Bautz
-function: 
-location: 
+function:
+location:
 image: jantheo_bautz.jpg
-url: 
+url:
 tags:
     - board
-permalink: false
 ---

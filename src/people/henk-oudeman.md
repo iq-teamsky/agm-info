@@ -6,5 +6,4 @@ image: henk_oudeman.jpg
 url: https://www.linkedin.com/in/hjoudeman/
 tags:
     - marketing
-permalink: false
 ---

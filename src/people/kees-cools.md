@@ -1,10 +1,9 @@
 ---
 name: Kees Cools
-function: 
-location: 
+function:
+location:
 image: kees_cools.jpg
-url: 
+url:
 tags:
     - board
-permalink: false
 ---

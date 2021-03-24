@@ -1,10 +1,9 @@
 ---
 name: Henk Breukink
-function: 
-location: 
+function:
+location:
 image: henk_breukink.jpg
-url: 
+url:
 tags:
     - board
-permalink: false
 ---
