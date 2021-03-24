@@ -6,19 +6,68 @@ description: ""
 backgroundImage: ""
 ---
 
-## Terms and conditions
+## Introduction to our services
 
-General terms and conditions for the services offered and available through this webpage.
+We, AGMinfo with our website www.agminfo.eu, make it possible for shareholders and other stakeholders to access all necessary information about general shareholders meetings of listed European companies and will enable shareholders to vote on the voting items of said meetings. We have a service for retail investors, for issuers, for intermediaries that serve investors and for other stakeholders. AGMinfo is a trade name of BorderXingInfo B.V., a company incorporated in the Netherlands with LEI number 7245006XE8FCY6OKS096.
 
-*   By making use of the (information) services offered and available through the webpages (the “Webpages”) of this Internet application (the “Application”) the user agrees to these General Terms and Conditions (“GTC”).
-*   The Webpages contain an aggregation of public information that has previously been published elsewhere by other parties and are intended solely for the purpose of reference. The Webpages provide no type of investment recommendation or legal, tax or other advice, and nothing included therein should be interpreted as a basis for investment or decision-making. The contents of the Webpages are for informational purposes only and should under no circumstances be used or considered as an offer of sale, request for an offer of sale, or to conduct any other transaction. The accuracy or completeness of any information that is made available on the Webpages remains the sole responsibility of the party that is the original publisher of that information notwithstanding the limitation of liability as stipulated in article 7 of the GTC.
-*   Although the information shown on the Webpages is compiled with care no guarantee is given that this information is and/or will always be correct and/or accurate and/or complete. Those involved in the formation of the Webpages, including but not limited to the parties who place information in the Application, the parties that manage and/or host the website on which the Application is located, the parties that own websites on which the Webpages are embedded, the parties that are the original publishers of the information, the owners of the Application and the builders of the Application’s software cannot accept liability for any consequences, including but not limited to any damages and loss of profits, that are, in any way, shape or form, the result of the use (or the impossibility of use), trust in or actions based upon information on the Webpages. Although it is the aim that the Webpages are continually accessible on any website where the Webpages are published or embedded, no liability is accepted for any consequences that are, in any way, shape or form, the result of such a website being inaccessible for any period of time, for any reason whatsoever. The website on which the Webpages are embedded or located may be made temporarily or permanently inaccessible without prior notice.
-*   In the event that you are directed through the Webpages to a website of another organisation, it is pointed out that no responsibility is assumed for the accuracy and completeness of the content of the website of such other organisation and that no liability is accepted for the correct and proper functioning of such a website.
-*   Users of the Webpages may access, download and print the available information for personal use free of charge. Users may not access, download, print, distribute or rely on the available information, if doing so may constitute a breach of any applicable local laws or regulations.  Users may not copy, link to, or in any way (re-)distribute or (re-) publish (a part of) the Webpages (European database directive 96/9/EC). Persons or organizations that perform services for investors or are professionally involved with shareholder meetings and who wish to use (part of) the Webpages for a purpose other than personal use may use the contact form to indicate that they are interested in the services offered by us in this area.
-*   In the event you have asked us a question through “contact” then, in order to formulate a reply, we have your permission, without any further consultation with you,
-    *   to contact the organisation(s) that you (may) have mentioned in your email;
-    *   forward your complete email to the organisation(s) that you (may) have mentioned in your email;
-    *   forward your complete email to an organisation that in our opinion is qualified to help you with obtaining an answer to your question and with whom we have made an arrangement to do so. In the event such services are not free of charge, the costs will be communicated to you before any work is undertaken.
-*   Any legal relationship that originates through the use of the Webpages or through one of the commercial services that are related to the Webpages or the Application is subject, exclusively, to Dutch law. If, in spite of the limitations in liability as stipulated in these general terms and conditions, anyone that is involved in the delivery of any service under a contractual obligation related to the Webpages or the Application, including but not limited to the parties who place information in the Application, the parties that manage and/or host the website on which the Application is located, the parties that own websites on which the Webpages are embedded, the parties that are the original publishers of the information, the owners of the Application and the builders of the Application’s Software is/are nevertheless held liable, except for damages that are the result of gross negligence (“gross guilt”) or willful misconduct (“intent”), for any other reason whatsoever, than the amount that can be paid out as damages by the liable party to the claiming party under that contractual obligation is maximised at the total amount that has been paid by the claiming party to the liable party for the services in the contract year that the damages occurred.
-*   The original language of the GTC is English. If they are translated into another language and there is any dispute about the contents or meaning thereof then the English text shall be binding.
-*   Disputes between parties that relate to services offered on or through the Webpages or the Application will, in the first instance, be laid before the competent judge in Amsterdam, the Netherlands.
+### Terms and conditions of Use
+
+These Terms and Conditions of Use create a contract between you and us if you make use of these webpages (our “Webpages Services”) and/or our internet application (the “Application”). The European Database Directive 96/9/EC of 11 March 1996 is applicable to our services.
+
+Any user that starts to use these Webpages Services confirms that he/she accepts our Terms and Conditions of Use.
+
+### Content of our Webpages Services
+
+These Webpages Services contain an aggregation of available information that has been made public by the listed company involved or by other parties.
+
+The accuracy or completeness of any information that is made available to our users remains the sole responsibility of the party that is the original publisher of that information. AGMinfo cannot and does not accept liability for any inaccuracy or incompleteness in this information.
+
+### Use of the Webpages Services
+
+Users may not access, download, print, link, (re)distribute or (re)publish (part of) the information available through the Webpages Services other than for personal use, except after obtaining our explicit written approval.
+
+Users that register for our paid services obtain a username and password and access to an account. Your username and password must be kept confidential at all times. A password should never be shared or exposed to others. You will not let anyone else access your account or do anything else that might jeopardize the security of your account. We reserve the right to clos your account at any time, if in our reasonable opinion you have failed to comply with any of the provisions of these Terms and Conditions of Use.
+
+### Your requests for information
+
+If you make use of the “contact” function of the Webpages Services, we will formulate a response as soon as possible and to do so you give us permission without further consultation with you to contact any organisations(s) you have mentioned in your mail and to forward your complete mail to them if required. We may conclude that another organisation with whom we have an arrangement is better qualified to respond to your question. In the event the responses cannot be delivered free of charge, you will be informed on the cost before any follow up action will be undertaken. You will not be charged unless you have expressly accepted to pay for certain specified costs.
+
+### No Investment- or voting recommendations
+
+We do not deliver any investment recommendation for any of the listed companies and/or voting recommendation(s) for any of the general meetings.
+
+### Privacy
+
+We protect the privacy of our users in compliance with the General Data Protection Regulation 2018 and implementing regulation in force in the Netherlands from time to time.
+
+### Intellectual property
+
+Users will respect our intellectual property rights as used in the provision of our services, including the rights to our brand name AGMinfo. No distribution of the content of our services or our brand name is permitted without our written approval.
+
+### Invoice and payment conditions
+
+The fees due for the provision of our services are charged via periodic electronic invoice denominated in Euros, sent to you via email to the address you have provided us with when registering to use these services. The amount charged for services provided is due regardless of whether you receive the relevant invoice and you yourself are responsible for ensuring that we have your correct email address at all times and that our emails are not caught by any spam filter or equivalent process. We are entitled to make periodically an inflation adjustment to the amount you pay based on the Harmonized Index of Consumer Prices HICP as compiled by Eurostat and the national statistical institutes of the relevant EU-member states in accordance with harmonized statistical methods. Consumers can pay us through iDEAL or through a VISA or MasterCard credit card. In due course we will also collect payments using a SEPA Direct Debit mandate, which you must provide when registering to use our paid services.
+
+### Disclaimer of warranties and waiver of liability
+
+We take care, on a reasonable commercial efforts’ basis, to ensure the quality, such as the timeliness and the accuracy, of the content of the Webpages Services. Users agree that any use of the content of our Webpages Services is at their own sole risk.
+
+We do not guarantee an error free service of information made available to us by third parties.
+
+We disclaim all liability for damages caused by any interruptions or errors in accessing our services or any websites we use, howsoever caused.
+
+Security of information made available via the internet can never be guaranteed. Users are responsible for protecting access to their computer, phone, or other device through which they access our services, including safeguarding the security of their password. We do not warrant that the services made available to you are free of viruses.
+
+If, in spite of the limitations in liability as stipulated in these Terms and Conditions of Use, anyone that is involved in the delivery of any service related to the Webpages , the Webpages Services or the Application, including but not limited to the parties who place information in the Application, the parties that manage and/or host the website on which the Application is located, the parties that own websites on which the Webpages are embedded, the parties that are the original publishers of the information, the owners of the Application and the builders of the Application’s Software is nevertheless held liable, except for damages that are the result of gross negligence (“grove schuld”) or wilful misconduct (“opzet”), for any other reason whatsoever, then the amount due by the liable party to the claiming party under that contractual obligation is maximised at the total amount that has been paid by the claiming party to the liable party for the services in the contract year that the damages occurred.
+
+### Amendments of our general terms and conditions
+
+We reserve the right to change the Webpages Services including the content of our Terms and Conditions of Use without an announcement in advance to our users. Users are recommended to review our Terms and Conditions of Use regularly.
+
+### Applicable law, complaints, and disagreements
+
+Our relationship with you, the users of our services, is governed by Dutch law.
+
+Complaints related to our services need to be brought to our attention via **[complaints@agminfo.eu](mailto:complaints@agminfo.eu)**.
+
+Any disagreements or disputes relating to the use of our services or these Terms and Conditions of Use are subject to the exclusive jurisdiction of the competent court in Amsterdam, The Netherlands.
