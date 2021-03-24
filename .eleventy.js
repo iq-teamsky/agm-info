@@ -12,6 +12,13 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/sitemap.xml");
     eleventyConfig.addPassthroughCopy({ 'src/assets/img/favicons': '/' });
 
+    // Returns a list of people ordered by filename
+    eleventyConfig.addCollection('faq', collection => {
+        return collection.getFilteredByGlob('./src/faq/*.md').sort((a, b) => {
+            return Number(a.fileSlug) > Number(b.fileSlug) ? 1 : -1;
+        });
+    });
+
     return {
         dir: {
             input: 'src',

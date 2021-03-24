@@ -740,16 +740,19 @@ form.search-form button {
   padding: 0;
   margin: 0;
   list-style: none;
+  border: 1px solid #CCCCCC;
+
+  > * + * {
+    border-top: 1px solid #CCCC;
+  }
 
   .single-item {
     background-color: #fff;
     padding: 20px;
-    padding-left: 50px;
+    padding-right: 50px;
     line-height: 28px;
     font-weight: 700;
-    margin-bottom: 10px;
     cursor: pointer;
-    border-radius: 4px;
     position: relative;
 
     &::after {
@@ -757,11 +760,12 @@ form.search-form button {
       width: 25px;
       height: 25px;
       border-radius: 50%;
-      background-color: #222;
+      background-color: $c1;
       color: #fff;
       position: absolute;
-      left: 15px;
+      right: 15px;
       top: 15px;
+      // transform: translateY(-50%);
       text-align: center;
       line-height: 25px;
       font-size: 20px;
@@ -769,21 +773,21 @@ form.search-form button {
 
     &.active::after {
       content: "-";
-      background-color: #fff;
-      color: #222;
+      // background-color: #fff;
+      // color: #222;
     }
 
-    &.active {
-      @extend .c3-bg;
+    // &.active {
+    //   // @extend .c3-bg;
 
-      color: #fff;
+    //   // color: #fff;
 
-      h4 {
-        color: #fff;
-      }
-    }
+    //   .single-item__title {
+    //     color: #fff;
+    //   }
+    // }
 
-    h4 {
+    .single-item__title {
       font-size: 16px;
       margin: 0;
     }
