@@ -82,17 +82,23 @@ span {
   }
 }
 
-.border-brand-bottom {
+.border-brand {
   position: relative;
 
   &::after {
     content: '';
     position: absolute;
-    bottom: -16px;
     left: 0;
-    height: 16px;
+    height: 8px;
     width: 100%;
     background-image: linear-gradient(to right, #0080c9, #0080c9 34%, #0069b4 34%, #0069b4 67%, #004f9f 67%, #004f9f);
+  }
+}
+
+.border-brand--top {
+
+  &::after {
+    top: -8px;
   }
 }
 
