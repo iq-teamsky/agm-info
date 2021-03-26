@@ -1,5 +1,5 @@
 ---
-title: Investors
+title: Media
 ---
 
 * Direct access to AGM information for subscribers
