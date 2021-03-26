@@ -1,0 +1,14 @@
+.cta {
+    background: #B2D9EF;
+    padding: 3em 0;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        margin-bottom: 0.5em;
+    }
+}
