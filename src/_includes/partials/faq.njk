@@ -1,16 +1,23 @@
-<div class="faq-area sp bg3">
+<section class="faq-area sp bg3">
     <div class="container">
         <div class="section-title">
             <h2>Frequently Asked Questions</h2>
         </div>
         <div class="row justify-content-md-center">
-            <div class="col-md-8">
+            <div class="col-md-12 col-lg-8">
                 <div class="faq">
                     {% for item in faqItems %}
-                    <div class="single-item">
-                        <h3 class="single-item__title">{{ item.data.title }}</h3>
-                        <div class="single-item__content content">
+                    <div class="single-item faq__item">
+                        <h3 class="faq__title">
+                            <button class="faq__button">
+                                {{ item.data.title }}
+                                <span aria-hidden="true" class="fa fa-chevron-down"></span>
+                            </button>
+                        </h3>
+                        <div class="faq__content content">
+                            <div class="faq__inner">
                             {{ item.templateContent | safe  }}
+                            </div>
                         </div>
                     </div>
                     {% endfor %}
@@ -18,4 +25,4 @@
             </div>
         </div>
     </div>
-</div>
+</section>
