@@ -1,0 +1,81 @@
+.hero {
+    background-size: cover;
+    background-position: center center;
+
+    &__inner {
+        padding: 1.5rem 0;
+    }
+
+    &__content {
+        background-color: $c5;
+        padding: 1.5em;
+    }
+
+    &__title {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    &__subtitle {
+        font-size: 1.125rem;
+        line-height: 1.5;
+    }
+
+    &__buttons {
+
+        > * {
+            min-width: 100%;
+            text-align: center
+        }
+
+        *:last-child {
+            margin-top: 0.5rem;
+        }
+    }
+
+    @include mq(medium) {
+        background-position: left center;
+
+        &__inner {
+            padding: 2.5rem 0;
+        }
+
+        &__content {
+            padding: 2em;
+        }
+
+        &__title {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    @include mq(large) {
+
+        &__title {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &__subtitle {
+            font-size: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &__inner {
+            padding: 4rem 0;
+        }
+
+        &__buttons {
+
+            > * {
+                min-width: 172px;
+                text-align: center
+            }
+
+            *:last-child {
+                margin: 0 0 0 0.5rem;
+            }
+        }
+    }
+}
