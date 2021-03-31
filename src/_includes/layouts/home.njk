@@ -1,10 +1,14 @@
 {% extends "base.njk" %}
 
+{% set faqItems = collections.faq %}
+
 {% block content %}
     <!-- Slideshow -->
-    {% include "partials/slideshow.njk" %}
+    {% include "partials/hero.njk" %}
     <!-- benefts -->
     {% include "partials/benefits.njk" %}
+    <!-- FAQ -->
+    {% include "partials/faq.njk" %}
     <!-- About us -->
     {% include "partials/links.njk" %}
 {% endblock content %}

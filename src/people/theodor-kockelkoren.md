@@ -1,10 +1,9 @@
 ---
 name: Theodor Kockelkoren
-function: 
-location: 
+function:
+location:
 image: theodor_kockelkoren.jpg
-url: 
+url:
 tags:
     - board
-permalink: false
 ---

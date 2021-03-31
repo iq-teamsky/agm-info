@@ -1,4 +1,4 @@
-$font: 'Muli', sans-serif;
+$font: 'Barlow', sans-serif;
 
 body {
   font-family: $font;
@@ -11,10 +11,11 @@ body {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: $c2;
   margin-bottom: 1em;
-  font-weight: 900;
+  font-weight: 700;
 }
 
-ul {
+ul,
+ol {
   padding-left: 1em;
 }
 
@@ -33,124 +34,6 @@ video {
 
   background-color: $c2;
   // border-bottom: 1px solid #685757;
-}
-
-/*****************************
- *   01. header
- ***************************** */
-
-header {
-  background-color: $c5;
-  padding: 18px 0;
-}
-
-.logo-column {
-  .logo {
-    position: absolute;
-    z-index: 2;
-    bottom: -25px;
-    height: 66px;
-    margin-bottom: -19px;
-
-    img {
-      max-height: 100%;
-    }
-  }
-}
-
-.nav-column {
-  padding: 5px 0;
-  font-size: 16px;
-
-  a, span, label {
-    color: $c3;
-    line-height: 25px;
-    vertical-align: top;
-
-    @extend .trns;
-
-    cursor: pointer;
-
-    &:hover {
-      color: #b5c3d4;
-    }
-  }
-
-  .right-nav {
-    float: right;
-    position: relative;
-
-    > * {
-      margin-left: .5em;
-      @include trns;
-    }
-
-    span {
-      padding: 0 15px;
-
-      @include trns;
-    }
-
-    .search-icon.active {
-      color: red;
-    }
-
-    .search-icon.active::before {
-      content: "";
-    }
-
-    .header-social {
-      display: inline-block;
-
-      a {
-        padding: 0 5px;
-        vertical-align: top;
-      }
-    }
-  }
-}
-
-form.search-form {
-  position: absolute;
-  right: 100%;
-  top: 50%;
-  z-index: 2;
-  width: 230px;
-  transform: translateY(-50%);
-  opacity: 0;
-  visibility: hidden;
-
-  @include trns;
-
-  &.active {
-    opacity: 1;
-    visibility: visible;
-  }
-
-  @include mq(xsm) {
-    transform: translateY(50%) translateX(0%);
-    right: 50%;
-    margin-top: 20px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  }
-}
-
-form.search-form input {
-  border: none;
-  width: 100%;
-  border-radius: 5px;
-  height: 40px;
-  text-indent: 20px;
-}
-
-form.search-form button {
-  border: none;
-  right: 0;
-  position: absolute;
-  top: 0;
-  width: 38px;
-  background: transparent;
-  height: 100%;
 }
 
 //menu
@@ -726,76 +609,7 @@ form.search-form button {
   }
 }
 
-/*****************************
- *   07. faq-area
- ***************************** */
 
-.faq-area {
-  .section-title {
-    margin-bottom: 60px;
-  }
-}
-
-.faq {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-
-  .single-item {
-    background-color: #fff;
-    padding: 20px;
-    padding-left: 50px;
-    line-height: 28px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    cursor: pointer;
-    border-radius: 4px;
-    position: relative;
-
-    &::after {
-      content: "+";
-      width: 25px;
-      height: 25px;
-      border-radius: 50%;
-      background-color: #222;
-      color: #fff;
-      position: absolute;
-      left: 15px;
-      top: 15px;
-      text-align: center;
-      line-height: 25px;
-      font-size: 20px;
-    }
-
-    &.active::after {
-      content: "-";
-      background-color: #fff;
-      color: #222;
-    }
-
-    &.active {
-      @extend .c3-bg;
-
-      color: #fff;
-
-      h4 {
-        color: #fff;
-      }
-    }
-
-    h4 {
-      font-size: 16px;
-      margin: 0;
-    }
-
-    .content {
-      padding-top: 15px;
-      font-size: 14px;
-      font-weight: 400;
-      display: none;
-    }
-  }
-}
 
 //faq-2
 

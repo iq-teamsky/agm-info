@@ -5,6 +5,7 @@ $c4: #f4f4f4;
 $c5: #ffffff;
 $c6: #666666;
 $c7: #FAFAFA;
+$c8: #E9F1F0;
 
 @mixin colors($color, $class) {
   .#{$class} {

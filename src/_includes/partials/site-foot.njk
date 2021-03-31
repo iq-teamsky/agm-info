@@ -1,0 +1,69 @@
+<footer>
+    <div class="footer-top">
+        <div class="container">
+        <h2 class="sr-only">Contact info</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 footer_widget">
+                    <div class="inner">
+                        <h3 class="h5 footer-title">Visit</h3>
+                        <dl>
+                            <dt class="sr-only">Company</dt>
+                            <dd>{{ settings.companyName }}</dd>
+                            <dt class="sr-only">Address</dt>
+                            <dd>{{ settings.address }}</dd>
+                            <dt class="sr-only">Postal code</dt>
+                            <dd>{{ settings.postalCode }}</dd>
+                            <dt class="sr-only">Country</dt>
+                            <dd>{{ settings.country }}</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 footer_widget">
+                    <div class="inner">
+                        <h3 class="h5 footer-title">Email</h3>
+                        <p>{{ settings.email }}</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 footer_widget">
+                    <div class="inner">
+                        <h3 class="h5 footer-title">Telephone</h3>
+                        <p>{{ settings.phoneNumber }}</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 footer_widget">
+                    <div class="inner">
+                        <h3 class="h5 footer-title">Follow us</h3>
+                        {%- if settings.social -%}
+                        <ul class="nav footer_widget__social">
+                            {%- for link in settings.social -%}
+                            <li class="nav-item">
+                                <a href="{{ link.url }}" target="_blank" class="nav-link">
+                                    <span class="sr-only">{{ link.text }}</span>
+                                    <i class="fa fa-{{ link.icon }}"></i>
+                                </a>
+                            </li>
+                            {%- endfor -%}
+                        </ul>
+                        {%- endif -%}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="copyright-txt">
+                        &copy; {{ helpers.currentYear() }} {{ settings.companyName }} All Rights Reserved.
+                    </div>
+                </div>
+                <div class="col-lg-6 text-right">
+                    <div class="footer-nav">
+                        <a href="/terms-and-conditions">Terms &amp; conditions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

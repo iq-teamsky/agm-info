@@ -1,0 +1,20 @@
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-sm-2 logo-column">
+                {%- if page.url == '/' -%}
+                <div class="logo">
+                    <img src="/assets/img/logo.png" alt="logo AGMinfo">
+                </div>
+                {%- else -%}
+                <a href="/" class="logo">
+                    <img src="/assets/img/logo.png" alt="logo AGMinfo">
+                </a>
+                {%- endif -%}
+            </div>
+            <div class="col-6 col-sm-10 nav-column clearfix">
+                {% include 'partials/nav.njk' %}
+            </div>
+        </div>
+    </div>
+</header>

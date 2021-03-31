@@ -7,5 +7,4 @@ url:
 tags:
     - people
     - our people
-permalink: false
 ---

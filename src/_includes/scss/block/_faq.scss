@@ -1,0 +1,73 @@
+/*****************************
+ *   07. faq-area
+ ***************************** */
+
+.faq-area {
+  .section-title {
+    margin-bottom: 60px;
+  }
+}
+
+.faq {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: 1px solid #CCCCCC;
+
+  > * + * {
+    border-top: 1px solid #CCCC;
+  }
+
+  &__item {
+    background-color: #fff;
+    line-height: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+
+    &.active .faq__button .fa {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__button {
+    padding: 20px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    text-align: left;
+    position: relative;
+    border-radius: 0;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .fa {
+      width: 16px;
+      height: 16px;
+      margin-left: auto;
+      flex-shrink: 0;
+      color: $c1;
+    }
+  }
+
+  &__button-text {
+    padding-right: 16px;
+  }
+
+  &__title {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  &__content {
+    font-size: 14px;
+    font-weight: 400;
+    display: none;
+  }
+
+  &__inner {
+    padding: 15px 20px;
+  }
+}

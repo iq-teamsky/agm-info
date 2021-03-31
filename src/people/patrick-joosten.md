@@ -1,11 +1,10 @@
 ---
 name: Patrick Joosten
 function: ICT-devops
-location: 
+location:
 image: patrick-joosten.jpg
-url: 
+url:
 tags:
     - people
     - our people
-permalink: false
 ---

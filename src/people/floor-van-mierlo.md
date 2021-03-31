@@ -1,11 +1,10 @@
 ---
 name: Floor van Mierlo
 function: Projects
-location: 
+location:
 image: floor-van-mierlo.jpg
 url:
 tags:
     - people
     - our people
-permalink: false
 ---

@@ -2,4 +2,10 @@
 @import "color";
 @import "mixin";
 @import "common";
+
+// import blocks
+@import 'block/faq';
+@import 'block/cta';
+@import 'block/hero';
+@import 'block/site-head';
 @import "main";
