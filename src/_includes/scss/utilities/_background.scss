@@ -1,0 +1,15 @@
+.bg2 {
+  background-color: $c5;
+}
+
+.bg1 {
+  @extend .c3-bg;
+}
+
+.bg3 {
+  background-color: $c7;
+}
+
+.bg4 {
+  background-color: $c8;
+}

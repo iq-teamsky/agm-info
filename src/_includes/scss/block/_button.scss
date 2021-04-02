@@ -1,0 +1,54 @@
+.button {
+  font-size: 14px;
+  line-height: 40px;
+  padding: 0 1em;
+  border: 2px solid;
+  color: #fff;
+
+  @extend .c2-bg;
+
+  @extend .c2-bo;
+
+  @extend .trns;
+
+  font-weight: 400;
+
+  &:hover {
+    color: #fff;
+    background-color: $c3;
+    border-color: $c3 !important;
+  }
+
+  @include mq(xsm) {
+    font-size: 13px;
+    padding: 0 15px;
+    line-height: 32px;
+  }
+}
+
+.button-2 {
+  font-size: 14px;
+  line-height: 40px;
+  padding: 0 20px;
+  border: 2px solid;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid $c2;
+  color: $c3;
+
+  @extend .trns;
+
+  font-weight: 400;
+
+  &:hover {
+    color: #fff;
+    background-color: $c3;
+    border-color: $c3;
+  }
+
+  @include mq(xsm) {
+    font-size: 13px;
+    padding: 0 15px;
+    line-height: 32px;
+  }
+}

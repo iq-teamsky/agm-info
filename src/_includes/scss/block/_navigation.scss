@@ -1,0 +1,111 @@
+//menu
+#menu ul {
+  text-align: right;
+  margin: 0;
+
+  li.has-child > a::after,
+  li.has-child > label::after {
+    content: "";
+    font-family: "fontawesome";
+    margin-left: 4px;
+  }
+
+  > li {
+    display: inline-block;
+    position: relative;
+
+    > a {
+      padding: 0 15px;
+      font-weight: 500;
+      line-height: 25px;
+
+      @extend .trns;
+
+      &:hover {
+        color: $c2;
+      }
+    }
+
+    > label {
+      margin: 0;
+
+      &:hover {
+        color: $c2;
+      }
+    }
+
+    &.current-menu-item > a {
+      color: $c2;
+    }
+  }
+}
+
+//dropdown
+#menu ul ul {
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: calc(100% + 23px);
+  z-index: 2;
+  width: 220px;
+  text-align: left;
+  padding: 15px 20px;
+  opacity: 0;
+  visibility: hidden;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+
+  @include trns;
+
+  &::after {
+    content: "";
+    border: 8px solid transparent;
+    border-bottom-color: #fff;
+    left: 25px;
+    top: -16px;
+    position: absolute;
+
+    @include trns;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    left: 0;
+    top: -20px;
+  }
+
+  li {
+    display: block;
+
+    a {
+      display: block;
+      font-weight: 300;
+      color: #222538;
+      font-size: 13px;
+      padding: 0;
+      margin: 5px 0;
+
+      @include trns;
+
+      &:hover {
+        @extend .c3;
+      }
+    }
+  }
+}
+
+#menu ul li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+.slicknav_menu {
+  @include mq(mmd) {
+    display: none;
+  }
+
+  background-color: $c2;
+  // border-bottom: 1px solid #685757;
+}

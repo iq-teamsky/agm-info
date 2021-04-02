@@ -1,0 +1,40 @@
+/*****************************
+ *   PAGE-TITLE
+ ***************************** */
+
+.page-title {
+  font-size: 16px;
+  color: $c5;
+  background-size: cover;
+
+  h1 {
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 0;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  .page-content {
+    background-color: $c5;
+    padding: 2em;
+  }
+}
+
+.page-title-col {
+  font-size: 16px;
+  color: $c5;
+  background-color: $c1;
+
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: $c5;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
