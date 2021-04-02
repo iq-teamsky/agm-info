@@ -1,0 +1,39 @@
+.no-padding {
+  padding: 0;
+}
+
+.sp {
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+  @include mq(mmd) {
+    padding-top: 4em;
+    padding-bottom: 4em;
+  }
+}
+
+.spt {
+  padding-top: 1.5em;
+
+  @include mq(mmd) {
+    padding-top: 6em;
+  }
+}
+
+.spb {
+  padding-bottom: 1.5em;
+
+  @include mq(mmd) {
+    padding-bottom: 6em;
+  }
+}
+
+.sp-m {
+  padding-top: 90px;
+  padding-bottom: 90px;
+
+  @include mq(mmd) {
+    padding-top: 225px;
+    padding-bottom: 225px;
+  }
+}

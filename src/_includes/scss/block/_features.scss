@@ -1,0 +1,42 @@
+.single-service-3 {
+  @extend .single-service;
+
+  // margin: 30px 0;
+
+  .inner {
+    background: $c5;
+    color: $c3;
+    height: 100%;
+
+    .title h3 {
+      color: $c2;
+      padding-left: 50px;
+      margin-bottom: .5em
+    }
+
+    .content {
+      color: $c3;
+      padding-left: 50px;
+    }
+
+    .title h4 {
+      font-size: 24px;
+    }
+
+    .content {
+      font-size: 16px;
+    }
+
+    .title .icon {
+      font-size: 34px;
+
+      @include trns;
+    }
+
+    &:hover .title .icon {
+      background-color: #fff;
+
+      @extend .c3;
+    }
+  }
+}

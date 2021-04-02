@@ -1,0 +1,111 @@
+/*****************************
+ *   04. service-area
+ ***************************** */
+
+.single-service {
+  margin: 15px 0;
+
+  .inner {
+    background-color: #fff;
+    padding: 30px;
+
+    @include trns;
+
+    &:hover {
+      box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .title {
+      overflow: hidden;
+      margin-bottom: 0;
+
+      .icon {
+        float: left;
+        font-size: 26px;
+
+        @include trns;
+      }
+
+      h3 {
+        // padding-left: 50px;
+        // font-size: 20px;
+        // margin: 3px 0 0;
+        font-weight: 700;
+        margin-bottom: .5em;
+
+        @include trns;
+      }
+    }
+
+    .content {
+      font-weight: 300;
+      font-size: 14px;
+      color: $c3;
+      line-height: 26px;
+      // padding-left: 50px;
+
+      @include trns;
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &.bordered .inner {
+    border: 1px solid #cad4de;
+    box-shadow: none;
+
+    &:hover {
+      @extend .c3-bo;
+
+      .icon,
+      h4 {
+        @extend .c3;
+      }
+    }
+  }
+}
+
+.single-service-2 {
+  @extend .single-service;
+
+  text-align: center;
+
+  .inner {
+    border: 1px solid #CCC;
+    padding: 85px 40px;
+    height: 100%;
+
+    .content {
+      font-size: 16px;
+      // margin-top: 25px;
+    }
+
+    .title {
+      text-align: center;
+
+      .icon {
+        float: none;
+        display: block;
+        font-size: 40px;
+        margin-bottom: 30px;
+      }
+
+      h4 {
+        padding-left: 0;
+      }
+    }
+  }
+
+  &:hover .inner {
+    @extend .c3-bg;
+
+    color: #fff;
+
+    .content,
+    .title h4 {
+      color: #fff;
+    }
+  }
+}

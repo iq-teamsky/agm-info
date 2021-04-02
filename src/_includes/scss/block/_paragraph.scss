@@ -1,0 +1,21 @@
+/*****************************
+ *   10. about-area
+ ***************************** */
+
+.about-content {
+  color: $c3;
+  font-weight: 300;
+  // margin-top: 25px;
+
+  @include mq(xmd) {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    margin-bottom: 1em;
+  }
+
+  a.button {
+    margin-top: 1em;
+  }
+}

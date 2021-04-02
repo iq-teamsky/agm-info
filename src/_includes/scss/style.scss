@@ -1,4 +1,3 @@
-@import "index";
 @import "color";
 @import "mixin";
 @import "common";
@@ -7,5 +6,22 @@
 @import 'block/faq';
 @import 'block/cta';
 @import 'block/hero';
+@import 'block/button';
+@import 'block/page-header';
+@import 'block/navigation';
+@import 'block/services';
+@import 'block/features';
+@import 'block/modal';
+@import 'block/paragraph';
+@import 'block/people';
+@import 'block/contact';
 @import 'block/site-head';
-@import "main";
+@import 'block/site-foot';
+
+// import utilities
+@import 'utilities/brandline';
+@import 'utilities/background';
+@import 'utilities/spacing';
+
+
+// @import "main";
