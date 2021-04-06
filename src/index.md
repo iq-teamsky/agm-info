@@ -1,6 +1,7 @@
 ---
 layout: layouts/home.njk
-title: All AGM related info <span class="highlight-text">at your fingertips</span>
+title: All AGM related info
+subTitle: at your fingertips
 metaDesc: All AGM related info at your fingertips
 benefitsTitle: Benefits AGMinfo
 aboutTitle: About us
