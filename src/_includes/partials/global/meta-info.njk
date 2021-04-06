@@ -1,3 +1,11 @@
+  {%- set title %}
+  {%- if subTitle %}
+  {{ title }} {{ subTitle }}
+  {%- else %}
+  {{ title }}
+  {%- endif %}
+  {%- endset %}
+
   {%- set pageTitle = title + ' - ' + site.name -%}
   {%- set pageDesc = '' -%}
   {%- set siteTitle = site.name -%}
