@@ -1,4 +1,5 @@
 {
     "permalink": false,
-    "tags": "services"
+    "tags": "services",
+    "ignore": true
 }
