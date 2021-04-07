@@ -3,7 +3,7 @@
 }
 
 .bg1 {
-  @extend .c3-bg;
+  background-color: $c3;
 }
 
 .bg3 {
@@ -12,4 +12,17 @@
 
 .bg4 {
   background-color: $c8;
+}
+
+/**
+ * GENERATE BACKGROUND UTILITIES
+ *
+ * @param {string} $key - The name that you want to get
+ * @param {string} $color- The color that you want to get
+ *
+ */
+@each $key, $color in $colors {
+    .bg-#{$key} {
+        background: #{$color};
+    }
 }

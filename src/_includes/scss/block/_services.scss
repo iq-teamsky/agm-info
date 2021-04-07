@@ -52,19 +52,19 @@
     }
   }
 
-  &.bordered .inner {
-    border: 1px solid #cad4de;
-    box-shadow: none;
+  // &.bordered .inner {
+  //   border: 1px solid #cad4de;
+  //   box-shadow: none;
 
-    &:hover {
-      @extend .c3-bo;
+  //   &:hover {
+  //     @extend .c3-bo;
 
-      .icon,
-      h4 {
-        @extend .c3;
-      }
-    }
-  }
+  //     .icon,
+  //     h4 {
+  //       @extend .c3;
+  //     }
+  //   }
+  // }
 }
 
 .single-service-2 {
@@ -99,8 +99,8 @@
   }
 
   &:hover .inner {
-    @extend .c3-bg;
-
+    // @extend .c3-bg;
+    background-color: $c3;
     color: #fff;
 
     .content,

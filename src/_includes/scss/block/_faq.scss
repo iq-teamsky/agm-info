@@ -2,24 +2,15 @@
  *   07. faq-area
  ***************************** */
 
-.faq-area {
-  .section-title {
-    margin-bottom: 60px;
-  }
-}
-
 .faq {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  border: 1px solid #CCCCCC;
+  border: 1px solid get-color(border);
 
   > * + * {
-    border-top: 1px solid #CCCC;
+    border-top: 1px solid get-color(border);
   }
 
   &__item {
-    background-color: #fff;
+    background-color: get-color(light);
     line-height: 28px;
     font-weight: 700;
     cursor: pointer;
@@ -48,7 +39,7 @@
       height: 16px;
       margin-left: auto;
       flex-shrink: 0;
-      color: $c1;
+      color: get-color(primary);
     }
   }
 

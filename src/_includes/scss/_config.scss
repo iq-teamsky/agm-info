@@ -1,0 +1,44 @@
+$base-size: 1rem;
+
+$c1: #0069B4;
+$c2: #000000;
+$c3: #333333;
+$c4: #f4f4f4;
+$c5: #ffffff;
+$c6: #666666;
+$c7: #FAFAFA;
+$c8: #E9F1F0;
+
+$colors: (
+  "dark": #1F2123,
+  "light": #FFFFFF,
+  "primary": #0080C9,
+  "primary-shade": #0066A1,
+  "primary-dark": #004D79,
+  "secondary": #AECCC9,
+  "secondary-tint": #E9F1F0,
+  "border": #E6E7E7
+);
+
+$size-scale: (
+  '300': $base-size * 0.75,
+  '400': $base-size,
+  '500': $base-size * 1.33,
+  '600': $base-size * 1.77,
+  '700': $base-size * 2.36,
+  '800': $base-size * 3.15,
+  '900': $base-size * 4.2,
+  'major': $base-size * 5.6,
+);
+
+$font: 'Barlow', sans-serif;
+
+$breakpoints: (
+  "medium": 768px,
+  "large": 922px
+);
+
+.trns {
+  -webkit-transition: all 0.3s cubic-bezier(0.84, 0.35, 0.39, 0.74) 0s;
+  transition: all 0.3s cubic-bezier(0.84, 0.35, 0.39, 0.74) 0s;
+}

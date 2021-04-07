@@ -1,5 +1,5 @@
 {% if faqItems %}
-<section class="faq-area sp bg4">
+<section class="faq-area sp bg-secondary-tint">
     <div class="container">
         <div class="section-title">
             <h2>Frequently Asked Questions</h2>
@@ -8,14 +8,14 @@
             <div class="col-md-12 col-lg-8">
                 <div class="faq">
                     {% for item in faqItems %}
-                    <div class="single-item faq__item">
+                    <div class="faq__item">
                         <h3 class="faq__title">
                             <button class="faq__button">
                                 <span class="faq__button-text">{{ item.data.title }}</span>
                                 <span aria-hidden="true" class="fa fa-chevron-down"></span>
                             </button>
                         </h3>
-                        <div class="faq__content content">
+                        <div class="faq__content">
                             <div class="faq__inner">
                             {{ item.templateContent | safe  }}
                             </div>

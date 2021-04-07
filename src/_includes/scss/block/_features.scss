@@ -36,7 +36,7 @@
     &:hover .title .icon {
       background-color: #fff;
 
-      @extend .c3;
+      color: $c3;
     }
   }
 }

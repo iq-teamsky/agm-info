@@ -57,9 +57,7 @@
 
     &:focus {
       outline: none;
-      border: 1px solid;
-
-      @extend .c3-bo;
+      border: 1px solid $c3;
     }
   }
 

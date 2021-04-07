@@ -90,7 +90,8 @@
       @include trns;
 
       &:hover {
-        @extend .c3;
+        // @extend .c3;
+        color: $c1;
       }
     }
   }

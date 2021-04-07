@@ -1,6 +1,83 @@
-@import "color";
+@import "config";
 @import "mixin";
-@import "common";
+@import "functions";
+
+// common styles
+
+body {
+  font-family: $font;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 400;
+  color: $c3;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  color: $c2;
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+
+ul,
+ol {
+  padding-left: 1em;
+}
+
+iframe {
+  border: none;
+}
+
+video {
+  max-width: 100%;
+}
+
+a:hover,
+a:visited,
+input,
+input:hover,
+input:focus,
+input:active,
+select {
+  text-decoration: none;
+  outline: none !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+/* section title */
+
+.section-title {
+  text-align: center;
+  // font-size: 16px;
+  // color: $c3;
+  margin-bottom: 30px;
+
+  > * {
+    margin: 0 0 5px;
+    font-size: 2rem;
+    font-weight: 900;
+    color: $c2;
+
+    @include mq(medium) {
+      font-size: 2.5rem;
+    }
+  }
+
+  &.white {
+    color: #ffffff;
+
+    h2 {
+      color: #fff;
+    }
+  }
+}
 
 // import blocks
 @import 'block/faq';
@@ -17,11 +94,11 @@
 @import 'block/contact';
 @import 'block/site-head';
 @import 'block/site-foot';
+@import 'block/preloader';
 
 // import utilities
 @import 'utilities/brandline';
 @import 'utilities/background';
 @import 'utilities/spacing';
-
-
-// @import "main";
+@import 'utilities/text';
+@import 'utilities/position';

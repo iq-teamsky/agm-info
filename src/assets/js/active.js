@@ -30,16 +30,16 @@ var document,
 
         flat.faq = $('.faq');
         flat.faq.each(function () {
-            flat.singleFaq = $(this).find('.single-item');
+            flat.singleFaq = $(this).find('.faq__item');
             flat.singleFaq.on('click', function () {
-                $(this).find('.content').slideToggle();
+                $(this).find('.faq__content').slideToggle();
                 $(this).toggleClass('active');
             });
         });
-        
+
         flat.windowHeight = $(window).height();
         $('.window-height').css('min-height',flat.windowHeight);
-        
+
         flat.searchIcon = $('.search-icon');
         flat.searchForm = $('.search-form');
         flat.searchIcon.on('click', function() {
@@ -59,7 +59,7 @@ var document,
 
     flat.wlPlugins = () => {
         if ($.fn.isotope) {
-            
+
             flat.portfolio_isotope = $('.portfolio-isotope');
             flat.portfolio_menu = $('.isotope-menu li');
             flat.portfolio_isotope.isotope({
