@@ -33,7 +33,7 @@
         }
     }
 
-    @include mq(medium) {
+    @include media-query(medium) {
         background-position: left center;
 
         &__inner {
@@ -50,7 +50,7 @@
         }
     }
 
-    @include mq(large) {
+    @include media-query(large) {
 
         &__title {
             font-size: 3.5rem;

@@ -1,43 +1,93 @@
 //menu
-#menu ul {
-  text-align: right;
-  margin: 0;
+.nav {
+	position: relative;
 
-  li.has-child > a::after,
-  li.has-child > label::after {
-    content: "";
-    font-family: "fontawesome";
-    margin-left: 4px;
-  }
+	&__drawer {
+		background-color: get-color(light);
+        height: 100%;
+        left: 0;
+        position: fixed;
+        top: 0;
+        transform: translateX(100%);
+        transition: transform .25s cubic-bezier(.65,0,.35,1);
+        width: 100%;
+        z-index: 5;
 
-  > li {
-    display: inline-block;
-    position: relative;
+        &.-is-active {
+            transform: translateX(0%);
+        }
+	}
 
-    > a {
-      padding: 0 15px;
-      font-weight: 500;
-      line-height: 25px;
+	.line {
+		background: get-color(dark);
+		height: 2px;
+		width: 1.5rem;
+		display: block;
+		margin: 0.25rem 0;
+	}
 
-      @extend .trns;
+	&__button {
+		border: 0;
+		background-color: transparent;
+		padding: 0.25rem;
+	}
 
-      &:hover {
-        color: $c2;
-      }
-    }
+	&__list {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		flex-wrap: wrap;
+		list-style: none;
+		flex-direction: column;
+		align-items: center;
 
-    > label {
-      margin: 0;
+		> * {
+			position: relative;
+		}
+	}
 
-      &:hover {
-        color: $c2;
-      }
-    }
+	a {
+		padding: 0 1em;
+		line-height: 1.5;
+		color: get-color(neutral-dark);
+		font-weight: 700;
+		font-size: 1.5rem;
 
-    &.current-menu-item > a {
-      color: $c2;
-    }
-  }
+		&:hover {
+			color: get-color(dark);
+		}
+
+		&[data-state='active'],
+    	&[aria-current='page'] {
+			color: get-color(dark);
+		}
+	}
+
+	.has-child > a::after {
+		content: "";
+		font-family: "fontawesome";
+		margin-left: 4px;
+	}
+
+	@include media-query(medium) {
+
+		&__button {
+			display: none;
+		}
+
+		&__drawer {
+			position: relative;
+			transform: translateX(0);
+		}
+
+		&__list {
+			flex-direction: row;
+		}
+
+		a {
+			font-size: 1rem;
+		}
+	}
 }
 
 //dropdown
@@ -82,8 +132,7 @@
     a {
       display: block;
       font-weight: 300;
-      color: #222538;
-      font-size: 13px;
+		line-height: 1.5;
       padding: 0;
       margin: 5px 0;
 
@@ -100,13 +149,4 @@
 #menu ul li:hover > ul {
   opacity: 1;
   visibility: visible;
-}
-
-.slicknav_menu {
-  @include mq(mmd) {
-    display: none;
-  }
-
-  background-color: $c2;
-  // border-bottom: 1px solid #685757;
 }

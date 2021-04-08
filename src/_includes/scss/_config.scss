@@ -17,7 +17,8 @@ $colors: (
   "primary-dark": #004D79,
   "secondary": #AECCC9,
   "secondary-tint": #E9F1F0,
-  "border": #E6E7E7
+  "border": #E6E7E7,
+  "neutral-dark": #57595A
 );
 
 $size-scale: (
@@ -34,8 +35,8 @@ $size-scale: (
 $font: 'Barlow', sans-serif;
 
 $breakpoints: (
-  "medium": 768px,
-  "large": 922px
+  'medium': 'min-width: 768px',
+  'large': 'min-width: 922px'
 );
 
 .trns {

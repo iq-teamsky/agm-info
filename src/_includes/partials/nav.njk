@@ -1,25 +1,26 @@
 {%- if nav.items -%}
-<nav id="menu" class="d-none d-lg-block">
-    <ul>
-        {%- for item in nav.items -%}
-
-        {%- set currentAttribute = '' -%}
-
-        {%- if page.url == item.url -%}
-        {%- set currentAttribute = 'current-menu-item' -%}
-        {%- endif -%}
-
-        <li class="{{ currentAttribute | safe }}{% if item.submenu %} has-child{% endif %}">
-            <a href="{{ item.url }}">{{ item.text }}</a>
-            {%- if item.submenu -%}
-            <ul class="sub-menu">
-                {%- for subitem in item.submenu -%}
-                <li><a href="{{subitem.url}}">{{ subitem.text }}</a></li>
-                {%- endfor -%}
-            </ul>
-            {%- endif -%}
-        </li>
-        {%- endfor -%}
-    </ul>
+<nav id="menu" class="nav site-head__nav">
+    <button type="button" class="nav__button">
+        <span class="visually-hidden">menu</span>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+    </button>
+    <div class="nav__drawer">
+        <ul class="nav__list">
+            {%- for item in nav.items -%}
+            <li class="nav__item">
+                <a href="{{ item.url }}"{{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.text }}{% if item.submenu %} <span class="fa fa-chevron-down"></span>{% endif %}</a>
+                {%- if item.submenu -%}
+                <ul class="sub-menu">
+                    {%- for subitem in item.submenu -%}
+                    <li><a href="{{subitem.url}}">{{ subitem.text }}</a></li>
+                    {%- endfor -%}
+                </ul>
+                {%- endif -%}
+            </li>
+            {%- endfor -%}
+        </ul>
+    </div>
 </nav>
 {%- endif -%}
