@@ -19,6 +19,12 @@
   {%- set pageDesc = metaDesc -%}
   {%- endif -%}
 
+  {%- if socialImage %}
+	{%- set socialImage = site.url + socialImage %}
+	{%- elif not socialImage %}
+	{%- set socialImage = site.url + '/assets/img/social-share.png' %}
+	{%- endif %}
+
   <title>{{ pageTitle }}</title>
 
   <!-- Site  -->
