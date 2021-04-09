@@ -28,15 +28,17 @@
     <link rel="stylesheet" href="/assets/css/slicknav.css">
     <link rel="stylesheet" href="/assets/css/screen.min.css">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-291CSMDQCZ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    {% if site.googleAnalytics %}
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-291CSMDQCZ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        gtag('config', 'G-291CSMDQCZ');
-    </script>
+            gtag('config', 'G-291CSMDQCZ');
+        </script>
+    {% endif %}
 </head>
 
 <body>
@@ -54,6 +56,7 @@
 
         {% include "partials/site-foot.njk" %}
     </div>
+
 
     {% include 'partials/modal.njk' %}
 

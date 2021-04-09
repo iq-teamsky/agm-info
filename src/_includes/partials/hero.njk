@@ -12,13 +12,13 @@
             <div class="row">
                 <div class="col-md-7 col-lg-6">
                     <div class="hero__content border-brand border-brand--top">
-                        <h1 class="hero__title">
-                        {{ title }}{{ textHighlight | safe }}
-                        </h1>
+                        <h1 class="hero__title">{{ title }}{{ textHighlight | safe }}</h1>
                         <p class="hero__subtitle">{{ description }}</p>
                         <div class="hero__buttons">
                             <a href="https://agminfo.eu/" target="_blank" rel="noopener" class="button-2">Get access now</a>
-                            {# <button class="button-2" data-toggle="modal" data-target="#videoModal">Watch AGMinfo video</button> #}
+                            {%- if video %}
+                            <button class="button-2" data-toggle="modal" data-target="#videoModal">Watch AGMinfo video</button>
+                            {%- endif %}
                         </div>
                     </div>
                 </div>
