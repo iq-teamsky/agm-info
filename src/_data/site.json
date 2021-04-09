@@ -5,5 +5,6 @@
     "authorEmail": "dnieuwenhuis@nieuwenhuis",
     "authorHandle": "@dnieuwenhuis1",
     "authorName": "Dennis Nieuwenhuis",
+    "googleAnalytics": false,
     "faviconPath": "assets/img/favicon/favicon.ico"
   }
