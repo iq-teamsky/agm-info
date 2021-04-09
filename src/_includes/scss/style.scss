@@ -2,33 +2,54 @@
 @import "mixin";
 @import "functions";
 
-// common styles
+// Global styles
+
+:root {
+	--flow-space: #{get-size('600')};
+}
 
 body {
-  font-family: $font;
-  font-size: 14px;
-  line-height: 27px;
-  font-weight: 400;
-  color: $c3;
+	font-family: $font-base;
+	font-size: get-size('400');
+	line-height: 1.5;
+	font-weight: 400;
+	color: get-color(dark);
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  color: $c2;
-  margin-bottom: 1em;
-  font-weight: 700;
+	color: get-color(dark);
+	margin-bottom: 1em;
+	font-weight: 700;
+}
+
+// TODO: Margin bottom kan weg wanneer bootstrap eruit is
+dl,
+ol,
+ul,
+dd,
+dt {
+	margin-bottom: 0;
 }
 
 ul,
 ol {
-  padding-left: 1em;
+  	padding-left: get-size('400');
+}
+
+dl {
+
+	> * {
+		--flow-space: #{get-size('300')};
+		margin-bottom: 0;
+	}
 }
 
 iframe {
-  border: none;
+  	border: none;
 }
 
 video {
-  max-width: 100%;
+  	max-width: 100%;
 }
 
 a:hover,
@@ -38,45 +59,43 @@ input:hover,
 input:focus,
 input:active,
 select {
-  text-decoration: none;
-  outline: none !important;
+	text-decoration: none;
+	outline: none !important;
 }
 
 img {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 a,
 span {
-  display: inline-block;
+	display: inline-block;
 }
 
 /* section title */
 
 .section-title {
-  text-align: center;
-  // font-size: 16px;
-  // color: $c3;
-  margin-bottom: 30px;
+	text-align: center;
+	margin-bottom: get-size('600');
 
-  > * {
-    margin: 0 0 5px;
-    font-size: 2rem;
-    font-weight: 900;
-    color: $c2;
+	> * {
+		margin: 0 0 5px;
+		font-size: 2rem;
+		font-weight: 900;
+		color: $c2;
 
-    @include mq(medium) {
-      font-size: 2.5rem;
-    }
-  }
+		@include media-query(medium) {
+			font-size: 2.5rem;
+		}
+	}
 
-  &.white {
-    color: #ffffff;
+	&.white {
+		color: #ffffff;
 
-    h2 {
-      color: #fff;
-    }
-  }
+		h2 {
+			color: #fff;
+		}
+	}
 }
 
 // import blocks
@@ -103,3 +122,4 @@ span {
 @import 'utilities/text';
 @import 'utilities/position';
 @import 'utilities/visually-hidden';
+@import 'utilities/flow';

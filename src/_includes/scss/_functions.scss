@@ -12,3 +12,18 @@
     @warn "Unknown `#{$key}` in $colors.";
     @return null;
 }
+
+/**
+ * SIZES FUNCTION
+ *
+ * @param {string} $key - The size that you want to get
+ */
+
+@function get-size($key) {
+	@if map-has-key($size-scale, $key) {
+		@return map-get($size-scale, $key);
+	}
+
+  	@warn "Unknown `#{$key}` in $sizes.";
+  	@return null;
+}

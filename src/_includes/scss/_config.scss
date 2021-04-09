@@ -1,4 +1,5 @@
 $base-size: 1rem;
+$font-base: 'Barlow', sans-serif;
 
 $c1: #0069B4;
 $c2: #000000;
@@ -24,15 +25,13 @@ $colors: (
 $size-scale: (
   '300': $base-size * 0.75,
   '400': $base-size,
-  '500': $base-size * 1.33,
-  '600': $base-size * 1.77,
-  '700': $base-size * 2.36,
-  '800': $base-size * 3.15,
-  '900': $base-size * 4.2,
-  'major': $base-size * 5.6,
+  '500': $base-size * 1.5,
+  '600': $base-size * 2,
+  '700': $base-size * 2.5,
+  '800': $base-size * 3,
+  '900': $base-size * 3.5,
+  'major': $base-size * 4,
 );
-
-$font: 'Barlow', sans-serif;
 
 $breakpoints: (
   'medium': 'min-width: 768px',
