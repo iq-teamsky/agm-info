@@ -6,7 +6,7 @@
 {% endset %}
 
 
-<div class="hero" style="background-image: url(/assets/img/hero/{{backgroundImage}})">
+<article class="hero" style="background-image: url(/assets/img/hero/{{backgroundImage}})">
     <div class="container">
         <div class="hero__inner">
             <div class="row">
@@ -18,11 +18,16 @@
                         <p class="hero__subtitle">{{ description }}</p>
                         <div class="hero__buttons">
                             <a href="https://agminfo.eu/" target="_blank" rel="noopener" class="button-2">Get access now</a>
-                            {# <button class="button-2" data-toggle="modal" data-target="#videoModal">Watch AGMinfo video</button> #}
+                            <button class="button-2" data-toggle="modal" data-target="#videoModal">Watch AGMinfo video</button>
                         </div>
                     </div>
+                    <figure>
+                        <picture>
+                            <img src="/assets/img/hero/{{backgroundImage}}" alt="{{ backgroundALt}}">
+                        </picture>
+                    </figure>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</article>

@@ -11,15 +11,15 @@ $c7: #FAFAFA;
 $c8: #E9F1F0;
 
 $colors: (
-  "dark": #1F2123,
-  "light": #FFFFFF,
-  "primary": #0080C9,
-  "primary-shade": #0066A1,
-  "primary-dark": #004D79,
-  "secondary": #AECCC9,
-  "secondary-tint": #E9F1F0,
-  "border": #E6E7E7,
-  "neutral-dark": #57595A
+  "dark": hsl(210, 6%, 13%),
+  "light": hsl(0, 0%, 100%),
+  "primary": hsl(202, 100%, 39%),
+  "primary-shade": hsl(202, 100%, 32%),
+  "primary-dark": hsl(202, 100%, 24%),
+  "secondary": hsl(174, 23%, 74%),
+  "secondary-tint": hsl(173, 22%, 93%),
+  "border": hsl(180, 2%, 90%),
+  "neutral-dark": hsl(200, 2%, 35%)
 );
 
 $size-scale: (
