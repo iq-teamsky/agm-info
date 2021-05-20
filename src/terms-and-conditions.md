@@ -10,7 +10,7 @@ backgroundImage: ""
 
 We, AGMinfo with our website www.agminfo.eu, make it possible for shareholders and other stakeholders to access all necessary information about general shareholders meetings of listed European companies and will enable shareholders to vote on the voting items of said meetings. We have a service for retail investors, for issuers, for intermediaries that serve investors and for other stakeholders. AGMinfo is a trade name of BorderXingInfo B.V., a company incorporated in the Netherlands with LEI number 7245006XE8FCY6OKS096.
 
-### Terms and conditions of Use
+### Terms and Conditions of Use
 
 These Terms and Conditions of Use create a contract between you and us if you make use of these webpages (our “Webpages Services”) and/or our internet application (the “Application”). The European Database Directive 96/9/EC of 11 March 1996 is applicable to our services.
 
@@ -26,7 +26,9 @@ The accuracy or completeness of any information that is made available to our us
 
 Users may not access, download, print, link, (re)distribute or (re)publish (part of) the information available through the Webpages Services other than for personal use, except after obtaining our explicit written approval.
 
-Users that register for our paid services obtain a username and password and access to an account. Your username and password must be kept confidential at all times. A password should never be shared or exposed to others. You will not let anyone else access your account or do anything else that might jeopardize the security of your account. We reserve the right to clos your account at any time, if in our reasonable opinion you have failed to comply with any of the provisions of these Terms and Conditions of Use.
+Users that register for our paid services obtain a username and password and access to an account. Your username and password must be kept confidential at all times. A password should never be shared or exposed to others. You will not let anyone else access your account or do anything else that might jeopardize the security of your account. We reserve the right to close your account at any time, if in our reasonable opinion you have failed to comply with any of the provisions of these Terms and Conditions of Use.
+
+A registration to use our paid services for a given period  may be cancelled within 14 days without cause by sending an email that contains your invoice number to **[contact@agminfo.eu](mailto:contact@agminfo.eu)**. A subscription is automatically extended for the same period unless you give a notice of termination (the “Notice”) to **[contact@agminfo.eu](mailto:contact@agminfo.eu)**. The Notice must contain your invoice number and must have been received by us at least one month prior to the date that a User wishes the subscription to end.
 
 ### Your requests for information
 
@@ -46,11 +48,11 @@ Users will respect our intellectual property rights as used in the provision of 
 
 ### Invoice and payment conditions
 
-The fees due for the provision of our services are charged via periodic electronic invoice denominated in Euros, sent to you via email to the address you have provided us with when registering to use these services. The amount charged for services provided is due regardless of whether you receive the relevant invoice and you yourself are responsible for ensuring that we have your correct email address at all times and that our emails are not caught by any spam filter or equivalent process. We are entitled to make periodically an inflation adjustment to the amount you pay based on the Harmonized Index of Consumer Prices HICP as compiled by Eurostat and the national statistical institutes of the relevant EU-member states in accordance with harmonized statistical methods. Consumers can pay us through iDEAL or through a VISA or MasterCard credit card. In due course we will also collect payments using a SEPA Direct Debit mandate, which you must provide when registering to use our paid services.
+The fees due for the provision of our services are charged via periodic electronic invoice denominated in Euros, that is placed in your account that can be accessed in the upper right hand corner of the Application sent to you via email to the address you have provided us with when registering to use these services. The amount charged for services provided is due regardless of whether you receive the relevant invoice and you yourself are responsible for ensuring that we have your correct email address at all times and that our emails are not caught by any spam filter or equivalent process. We are entitled to make periodically an inflation adjustment to the amount you pay based on the Harmonized Index of Consumer Prices HICP as compiled by Eurostat and the national statistical institutes of the relevant EU-member states in accordance with harmonized statistical methods. Consumers can pay us through iDEAL or through a VISA or MasterCard credit card. In due course we will also collect payments using a SEPA Direct Debit mandate, which you must provide when registering to use our paid services.
 
 ### Disclaimer of warranties and waiver of liability
 
-We take care, on a reasonable commercial efforts’ basis, to ensure the quality, such as the timeliness and the accuracy, of the content of the Webpages Services. Users agree that any use of the content of our Webpages Services is at their own sole risk.
+We strive to ensure that the content of the Webpages Services is up-to-date, complete and factually correct.  Users agree that any use of the content of our Webpages Services is at their own sole risk.
 
 We do not guarantee an error free service of information made available to us by third parties.
 
